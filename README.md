@@ -16,8 +16,13 @@ python -m py_prep -init
 ````
 
 Available options:
+
 `-init` - initializes environment and installs required packages
+
 `-install` - installs required packages, requires valid environment
+
 `-dev` - installs declared dev packages
+
 `-no-venv` - do not require virtial environment - uses current environment for all operations
+
 `-check` - checks if current enfironment meets requirements
