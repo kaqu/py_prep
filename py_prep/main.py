@@ -14,7 +14,7 @@ def rerun_activated(argv):
         args.add("-install")
 
     return os.system(
-        "/bin/bash -c 'source {venv_path}bin/activate\npython -m env_setup {args}'"
+        "/bin/bash -c 'source {venv_path}bin/activate\npython -m py_prep {args}'"
         .format(venv_path=VENV_PATH, args=", ".join(args))
     )
 
